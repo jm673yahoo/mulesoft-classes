@@ -1,0 +1,14 @@
+#%RAML 1.0 Library
+
+uses:
+  common_type: ../libraries/common.raml
+  
+types:  
+
+  STUDENT:
+    type: object
+    properties:
+      firstName:
+        type: common_type.FIRST_NAME
+      lastName:
+        type: common_type.LAST_NAME

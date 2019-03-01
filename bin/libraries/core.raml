@@ -1,0 +1,13 @@
+#%RAML 1.0 Library
+
+types:
+  
+  Error:
+    type: object
+    properties: 
+      code?: integer
+      message?: string
+  
+  Name:
+    type: string
+    maxLength: 40

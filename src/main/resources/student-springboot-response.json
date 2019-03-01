@@ -1,0 +1,13 @@
+{
+    "firstName": "MIKE",
+    "lastName": "AJ",
+    "dob": 19900320,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8088/students/1"
+        },
+        "students": {
+            "href": "http://localhost:8088/students"
+        }
+    }
+}
